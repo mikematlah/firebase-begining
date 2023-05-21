@@ -10,29 +10,26 @@
 </head>
 
 <body>
-    <div class="main">cd 
-        <div>
-            <label>Email</label>
-            <input name="email" placeholder="Email" id="email" type="email" />
-        </div>
-        <div>
-            <label>Password</label>
-            <input name="password" placeholder="Password" id="password" type="password" />
-        </div>
-
-    </div>
-    <div class="buttons">
-        <button class="submit-btn"onclick="register()">Sign Up</button>
-
-        <button class="login-btn"onclick="login()">Sign In</button>
-    
-        <button onclick="saveData()">Save Data</button>
-    
-        <button onclick="readData()">Read Data</button>
-    
-        <button onclick="updateData()">Update one Field</button>
-    
-        <button onclick="deleteData()">Delete one Field</button>
+    <div class="main">
+       
+        <form class="add">
+            <lable for="title">Title:</lable>
+            <input type="text" name="title" required>
+            <lable for="author">Author:</lable>
+            <input type="text" name="author" required>
+            <button>add a book</button>
+        </form>
+        <form class="delete">
+            
+            <lable for="id">Book ID:</lable>
+            <input type="text" name="id" required>
+            <button>delete a book</button>
+        </form>
+           
+         
+           
+      
+   
     </div>
     <script src="bundle.js" type="module"></script>
 </body>

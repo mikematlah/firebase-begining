@@ -11,22 +11,58 @@
 
 <body>
     <div class="main">
-       
-        <form class="add">
-            <lable for="title">Title:</lable>
-            <input type="text" name="title" required>
-            <lable for="author">Author:</lable>
-            <input type="text" name="author" required>
-            <button>add a book</button>
-        </form>
-        <form class="delete">
+       <div class="forms">
+            <form class="add">
+                <h2>Add form</h2>
+                <lable for="title">Title:</lable>
+                <input type="text" name="title" required>
+                <lable for="author">Author:</lable>
+                <input type="text" name="author" required>
+                <button>add a book</button>
+            </form>
+            <form class="delete">
+                <h2>Delete form</h2>
+                <lable for="id">Book ID:</lable>
+                <input type="text" name="id" required>
+                <button>delete a book</button>
+            </form>
+            <form class="update">
+                <h2>Update form form</h2>
+                <lable for="title">Update title:</lable>
+                <input type="text" name="title" required>
+                <lable for="author">Update author:</lable>
+                <input type="text" name="author" required>
+                <lable for="id">Document ID:</lable>
+                <input type="text" name="id" required>
+                <button>update a book</button>
+            </form>
+            <form class="get-doc">
+                <h2>Get a single document</h2>
+                <lable for="id">Document ID:</lable>
+                <input type="text" name="id" required>
+                <button>get a document</button>
+            </form>
+            <form class="signup">
+                <h2>Firebase auth</h2>
+                <lable for="email">Email:</lable>
+                <input type="email" name="email" required>
+                <lable for="password">Password:</lable>
+                <input type="password" name="password" required>
+                <button>sign up</button>
+            </form>
             
-            <lable for="id">Book ID:</lable>
-            <input type="text" name="id" required>
-            <button>delete a book</button>
-        </form>
+       </div>
+       <h2>Single document from database</h2>
+       <div class="single">
+        
            
-         
+       </div>
+
+       <h2>Data from database</h2>
+         <div class="data">
+        
+           
+         </div>
            
       
    

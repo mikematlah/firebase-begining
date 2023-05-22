@@ -4,9 +4,16 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+    background-color:aliceblue;
+    
+}
+.main{
+    margin-top:10em;
 }
 input{
     margin:.5em;
+    height: 2em;
 }
 .buttons{
     display:flex;
@@ -14,4 +21,44 @@ input{
 }
 button{
     margin:.5em;
+    padding:.5em;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color:gainsboro;
+}
+button:hover{
+    background-color: gold;
+}
+form{
+    border:1px solid black;
+    margin:.5em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    flex-grow: 1;
+  
+  
+}
+.forms{
+    display: flex;
+    flex-wrap: wrap;
+}
+.element{
+    border:1px solid black;
+    margin:.2em;
+    padding:.5em;
+    background-color: beige;
+    flex-grow: 1;
+}
+.data,
+.single{
+    
+    margin:.5em;
+    padding:.5em;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
 }
